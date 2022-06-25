@@ -15,3 +15,4 @@ function consecutive(arr, a, b) {
     }
   }
   console.log(consecutive([0,1,2,3,4,5],0,4))
+  
