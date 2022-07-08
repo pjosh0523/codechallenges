@@ -15,7 +15,6 @@ The second value in the first integer array is 0, since the bus is empty in the 
 function number(busStops){
     let count = 0
     let diff = 0
-    console.log(busStops[0][0])
     for (let i = 0; i < busStops.length; i++) {
         count += busStops[i][0]
         diff += busStops[i][1]
