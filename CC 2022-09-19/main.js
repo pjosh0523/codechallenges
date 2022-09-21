@@ -27,4 +27,4 @@ function uncensor(infected, discovered) {
     }
     return uncensored;
   }
-  uncensor("*h*s *s v*ry *tr*ng*", "Tiiesae")
+  console.log(uncensor("*h*s *s v*ry *tr*ng*", "Tiiesae"))
