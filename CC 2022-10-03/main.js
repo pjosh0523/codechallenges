@@ -40,9 +40,9 @@ function sepStr(arr) {
     let maxLength = Math.max(...wordsArrs.map(x=> x.length));
     let res = [];
     for(let i=0; i < maxLength; i++){
-      res.push([]);
+      res.push([]);//make an empty array for each word
      for(let j = 0; j < wordsArrs.length; j++){
-       res[i].push(wordsArrs[j][i] ? wordsArrs[j][i] : '');
+       res[i].push(wordsArrs[j][i] ? wordsArrs[j][i] : '');//for each loop of the big loop go through this smaller loop adding all letters from different arrasy but in the same index
      }
     }
     return res;
